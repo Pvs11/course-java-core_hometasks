@@ -1,4 +1,4 @@
-package main.concurrency.censor;
+package homework.home_work_1.main.concurrency.censor;
 
 import java.io.*;
 import java.util.regex.Pattern;

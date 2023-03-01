@@ -1,4 +1,4 @@
-package main.concurrency.censor;
+package homework.home_work_1.main.concurrency.censor;
 
 import java.io.*;
 import java.util.Arrays;
@@ -22,7 +22,7 @@ public class FileContentModification implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        File changedFile = new File("src/main/concurrency/" + fileQueue.resultFile.getName().replace(".txt", "Changed.txt"));
+        File changedFile = new File("src/homework.home_work_1.main.concurrency.main/concurrency/" + fileQueue.resultFile.getName().replace(".txt", "Changed.txt"));
         try (BufferedReader br = new BufferedReader(new FileReader(fileQueue.resultFile));
              BufferedWriter bw = new BufferedWriter(new FileWriter(changedFile))) {
             changedFile.createNewFile();

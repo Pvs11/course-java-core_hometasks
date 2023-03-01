@@ -1,4 +1,4 @@
-package main.concurrency;
+package homework.home_work_1.main.concurrency;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -24,7 +24,7 @@ public class Consumer implements Runnable {
     @Override
     public void run() {
         while (isActive) {
-            FileWriter fw = createFileWriter("E:/Git-projects/trash/course-java-core_hometasks/src/main/concurrency/goods/result.txt");
+            FileWriter fw = createFileWriter("src/homework/home_work_1/main/concurrency/goods");
             if (queue.inputList.peek() != null) {
                 int item = 0;
                 try {

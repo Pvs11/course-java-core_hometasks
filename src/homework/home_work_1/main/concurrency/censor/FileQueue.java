@@ -1,4 +1,4 @@
-package main.concurrency.censor;
+package homework.home_work_1.main.concurrency.censor;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class FileQueue {
 
     {
         try {
-            resultFile = new File("src/main/concurrency/resultFile.txt");
+            resultFile = new File("src/homework.home_work_1.main.concurrency.main/concurrency/resultFile.txt");
             resultFile.createNewFile();
         } catch (IOException e) {
             throw new RuntimeException(e);

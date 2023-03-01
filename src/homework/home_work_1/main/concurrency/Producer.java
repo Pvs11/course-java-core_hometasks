@@ -1,6 +1,6 @@
-package main.concurrency;
+package homework.home_work_1.main.concurrency;
 
-import main.concurrency.exception.UserInputException;
+import homework.home_work_1.main.concurrency.exception.UserInputException;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -14,7 +14,7 @@ public class Producer implements Runnable {
 
     static {
         try {
-            handler = new FileHandler("E:/Git-projects/trash/course-java-core_hometasks/src/main/concurrency/log.txt");
+            handler = new FileHandler("src/homework/home_work_1/main/concurrency");
         } catch (IOException e) {
             e.printStackTrace();
         }

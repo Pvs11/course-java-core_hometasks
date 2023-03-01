@@ -1,8 +1,8 @@
-package test.concurrency;
+package homework.home_work_1.test.concurrency;
 
-import main.concurrency.Consumer;
-import main.concurrency.Producer;
-import main.concurrency.ShopQueue;
+import homework.home_work_1.main.concurrency.Consumer;
+import homework.home_work_1.main.concurrency.Producer;
+import homework.home_work_1.main.concurrency.ShopQueue;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

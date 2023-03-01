@@ -1,9 +1,9 @@
-package test.concurrency;
+package homework.home_work_1.test.concurrency;
 
-import main.concurrency.censor.FileContentModification;
-import main.concurrency.censor.FileQueue;
-import main.concurrency.censor.FileQueueFiller;
-import main.concurrency.censor.FileSearchAndMerge;
+import homework.home_work_1.main.concurrency.censor.FileContentModification;
+import homework.home_work_1.main.concurrency.censor.FileQueue;
+import homework.home_work_1.main.concurrency.censor.FileQueueFiller;
+import homework.home_work_1.main.concurrency.censor.FileSearchAndMerge;
 
 import java.io.*;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class FileSearchAndMergeDemo {
 
     public static void main(String[] args) throws InterruptedException {
-        String exampleDirectory = "src/main/concurrency/exampleFiles";
+        String exampleDirectory = "src/homework.home_work_1.main.concurrency.main/concurrency/exampleFiles";
         System.out.println("Please, specify directory where to search...");
         Scanner scan = new Scanner(System.in);
 
@@ -25,7 +25,7 @@ public class FileSearchAndMergeDemo {
         new Thread(searchAndMerge).start();
         new Thread(searchAndMerge).start();
 
-        File file = new File("src/main/concurrency/censor/WordsToBeRemoved.txt");
+        File file = new File("src/homework.home_work_1.main.concurrency.main/concurrency/censor/WordsToBeRemoved.txt");
         FileContentModification modification = new FileContentModification(fileQueue, file);
         new Thread(modification).start();
     }
