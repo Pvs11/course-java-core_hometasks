@@ -1,3 +1,0 @@
-hello world should be written in capital
-let's see the result!
-Alaska, alabama, Ontario, Texas.
