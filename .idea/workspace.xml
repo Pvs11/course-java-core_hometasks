@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="576565b4-e306-4f3c-8a84-24d9149dd20d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+    <list default="true" id="576565b4-e306-4f3c-8a84-24d9149dd20d" name="Changes" comment="lambda">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/main/io/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/digits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/test/io/FileUtilDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="concurrency" />
+        <entry key="$PROJECT_DIR$" value="concurrent_util" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,19 +50,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B" />
-      <module name="course-java-core_hometasks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Censor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.concurrency.Censor" />
+    <configuration name="FileSearchAndMergeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.home_work_1.test.concurrency.FileSearchAndMergeDemo" />
       <module name="course-java-core_hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.home_work_1.main.concurrency.censor.*" />
+          <option name="PATTERN" value="homework.home_work_1.test.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSearchAndMergeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.home_work_1.test.concurrency.FileSearchAndMergeDemo" />
+    <configuration name="ParallelCalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.home_work_4.test.ParallelCalculatorDemo" />
       <module name="course-java-core_hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.home_work_1.test.concurrency.*" />
+          <option name="PATTERN" value="homework.home_work_4.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.home_work_4.test.ProducerConsumerDemo" />
+      <module name="course-java-core_hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.home_work_4.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerDemo" />
+        <item itemvalue="Application.ParallelCalculatorDemo" />
         <item itemvalue="Application.main.concurrency.alternative.ShopDemo" />
         <item itemvalue="Application.homework.home_work_1.test.concurrency.ShopDemo" />
         <item itemvalue="Application.FileSearchAndMergeDemo" />
-        <item itemvalue="Application.Censor" />
-        <item itemvalue="Application.B" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676959100370</updated>
     </task>
+    <task id="LOCAL-00001" summary="lambda">
+      <created>1679153974594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679153974594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
 </project>
