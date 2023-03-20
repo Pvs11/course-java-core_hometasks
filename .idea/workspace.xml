@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="576565b4-e306-4f3c-8a84-24d9149dd20d" name="Changes" comment="fresh blank commit">
-      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/main/io/FileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/digits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/resources/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/home_work_2/test/io/FileUtilDemo.java" beforeDir="false" />
+    <list default="true" id="576565b4-e306-4f3c-8a84-24d9149dd20d" name="Changes" comment="date-and-time homework">
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/main/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/main/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/main/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/main/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/test/Task1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/test/Task2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/home_work_6/test/Task3Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +20,42 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="SQUASH" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="concurrent_util" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,25 +73,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Git-projects/trash/course-java-core_hometasks&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileSearchAndMergeDemo">
-    <configuration name="FileSearchAndMergeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.home_work_1.test.concurrency.FileSearchAndMergeDemo" />
-      <module name="course-java-core_hometasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.home_work_1.test.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task3Demo">
     <configuration name="ParallelCalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.home_work_4.test.ParallelCalculatorDemo" />
       <module name="course-java-core_hometasks" />
@@ -87,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework.home_work_1.test.concurrency.ShopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.home_work_1.test.concurrency.ShopDemo" />
+    <configuration name="Task1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.home_work_6.test.Task1Demo" />
       <module name="course-java-core_hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.home_work_1.main.concurrency.censor.*" />
+          <option name="PATTERN" value="homework.home_work_6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +122,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.concurrency.alternative.ShopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.concurrency.alternative.ShopDemo" />
+    <configuration name="Task2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.home_work_6.test.Task2Demo" />
       <module name="course-java-core_hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.concurrency.alternative.*" />
+          <option name="PATTERN" value="homework.home_work_6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.home_work_6.test.Task3Demo" />
+      <module name="course-java-core_hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.home_work_6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task3Demo" />
+        <item itemvalue="Application.Task2Demo" />
+        <item itemvalue="Application.Task1Demo" />
         <item itemvalue="Application.ProducerConsumerDemo" />
         <item itemvalue="Application.ParallelCalculatorDemo" />
-        <item itemvalue="Application.main.concurrency.alternative.ShopDemo" />
-        <item itemvalue="Application.homework.home_work_1.test.concurrency.ShopDemo" />
-        <item itemvalue="Application.FileSearchAndMergeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679155888316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="date-and-time homework">
+      <created>1679227293763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679227293763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +202,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="reflection" />
                       </list>
                     </value>
                   </entry>
@@ -176,6 +218,12 @@
     <MESSAGE value="lambda" />
     <MESSAGE value="blank commit repair" />
     <MESSAGE value="fresh blank commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fresh blank commit" />
+    <MESSAGE value="date-and-time homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="date-and-time homework" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/course_java_core_hometasks$Reflection.ic" NAME="Reflection Coverage Results" MODIFIED="1679216908155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>homework.home_work_5.main.*</FILTER>
+    </SUITE>
   </component>
 </project>
